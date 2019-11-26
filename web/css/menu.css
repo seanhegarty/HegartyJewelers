@@ -1,0 +1,228 @@
+/*Navbar specs*/
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  
+  body {
+  background-color: #ffffff;
+}
+
+/* button design */
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #ffffff; 
+    color: black; 
+}
+
+.button1:hover {
+    background-color: #e6e6e6;
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.buttonviewproduct {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block; 
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttongrey {
+  background-color: white;
+  color: black;
+  border: 4px solid #ffffff;
+  padding: 10px 24px
+}
+
+.buttongrey:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Logo Desing */
+.logopicture img {
+    width:130px;
+    left:45%;
+    top:7%;
+    position:absolute;  
+}
+
+
+.logomain{
+    text-align: center;
+    font-family:'Montserrat';
+    color: #413C3C;
+    left:30%;
+    top:15%;
+    font-size:70px;
+    font-weight:300;    
+}
+
+.logosecondary{
+    text-align: center;
+    font-family:Courier New, monospace;
+    color: #413C3C;
+    left:30%;
+    top:15%;
+    font-size:30px;
+    font-weight:300;
+    
+}
+/* webpage elements */
+.logoindex{
+    text-align: center;
+    font-family:'Montserrat';
+    color: #413C3C;
+    left:30%;
+    top:15%;
+    font-size:40px;
+    font-weight:300;    
+}
+
+.logoindexsecondary{
+    text-align: center;
+    font-family:Courier New, monospace;
+    color: #413C3C;
+    left:30%;
+    top:15%;
+    font-size:23px;
+    font-weight:400;
+    
+}
+
+.logopictureindex img {
+    width:130px;
+    left:45%;
+    top:7%;
+    position:absolute;  
+}
+
+.mainproduct{
+    font-family: 'Montserrat';
+    color: black;
+    font-weight:900;
+}
+
+.abouttypetext{
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 16px;
+    font-weight:700;
+}
+
+.producttypetext{
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 16px;
+    font-weight:700;
+}
+
+.productprice{
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 24px;
+    font-weight:700;
+    text-align: center;
+}
+
+.productspecstexttext{
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 14px;
+    font-weight:700;
+    float:left;
+}
+
+.zoom {
+  transition: transform .2s;
+  /* width: 200px; */
+  /* height: 200px; */
+  /* margin: 0 auto; */
+  cursor: pointer;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari 3-8 */
+  transform: scale(1.15);   
+}
+
+hr.line {
+  border-top: 1px solid #413C3C;
+}
+/* Navbar */
+
+ .navbarSean ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+    font-size:16px;
+    font-weight:600;
+}
+
+
+.navbarSean li {
+    float: left;
+}
+
+.navbarSean li a {
+    display: block;
+    /* color: #dce0e2; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
